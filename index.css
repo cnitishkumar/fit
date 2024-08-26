@@ -1,0 +1,975 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #111111;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    /* height: 60px; */
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100vw;
+
+
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: transparent;
+    outline: none;
+    border-width: 0px;
+    margin-right: 10px;
+}
+
+.red-line {
+    height: 7.5px;
+    width: 100px;
+    background-color: red;
+}
+
+
+/* section1 */
+
+.intro-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+
+    max-width: 100vw;
+
+
+}
+
+
+
+
+.main {
+
+    /* background-color: lightgray; */
+
+    overflow: hidden;
+}
+
+.side-bar {
+    position: fixed;
+    position: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: hidden;
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    transition: 1s ease;
+    background-color: black;
+}
+
+
+.close-btn {
+    background-color: transparent;
+    border-width: 0px;
+    color: #ffffff;
+    margin-left: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.close-btn:hover {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+
+.sidebar-text {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+
+
+.life-motion-heading {
+    color: red;
+    font-size: xx-large;
+
+}
+
+.intro-sub-heading {
+    color: #111111;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+
+.intro-section-description {
+    color: #111111;
+    font-size: medium;
+    font-family: sans-serif;
+    line-height: 25px;
+    font-size: medium;
+}
+
+.read-more-btn {
+    background-color: red;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border-width: 0px;
+    font-family: 'Roboto';
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.read-more-btn:hover{
+    background-color: #110b0b;
+}
+
+.intro-description-container {
+    width: 50%;
+    padding: 40px;
+}
+
+.intro-section-image-container {
+    padding: 40px;
+    width: 50%;
+
+}
+
+.fitness-image {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+/* section2 */
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    padding: 10px;
+    height: 60vh;
+
+    max-width: 100vw;
+
+}
+
+.card {
+    margin: 10px;
+    width: 24%;
+    height: auto;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    color: #fff;
+    border-radius: 10px;
+   
+}
+
+.card:hover {
+  
+    /* border: 2px solid red; */
+    background-color:black;
+    position: relative;
+   
+    box-shadow: 5px 5px 5px 5px black;
+ color:red;
+ transition:1s ease;
+}
+
+.card-text {
+    font-size: 27px;
+   color: inherit;
+
+}
+
+.gyn-and-fit-image {
+    width: 25%;
+    height: 25%;
+}
+
+.gym-img-2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 20%;
+    height: 20%;
+}
+
+.gym-img-3 {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 15%;
+    height: 15%;
+}
+
+.gym-img-4 {
+    width: 40%;
+    height: 45%;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding: 40px;
+}
+
+/* section 3 */
+
+.section-3-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff;
+
+    max-width: 100vw;
+}
+
+
+.section-3-description-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+
+
+}
+
+.section-3-description {
+    font-size: larger;
+    line-height: 30px;
+    color: #111111;
+    font-family: 'Roboto';
+}
+
+
+.section-3-heading {
+    color: #111111;
+    margin-top: 20px;
+}
+
+.section-3-about-heading {
+    color: #111111;
+    font-size: xx-large;
+    margin-top: 40px;
+
+}
+
+.section-3-about-image {
+    height: 20%;
+    width: 100%;
+
+}
+
+.section-3-about-container {
+    display: flex;
+    padding: 40px;
+
+}
+
+.about-image-container {
+    border: 25px solid red;
+    width: 30%;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.section-3-content-container {
+    width: 40%;
+}
+
+
+/* section 4 */
+
+.section-4-main-container {
+    background-image: url('https://img.freepik.com/free-photo/woman-holding-weights-near-barbells_651396-1617.jpg?t=st=1724256281~exp=1724259881~hmac=6eddefab826c89802603d18a981c9f2e57f733f1d1ed00cc6b3dad987517b413&w=1480');
+    height: 100vh;
+
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+
+
+}
+
+.section4-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    padding: 10px;
+    width: 20%;
+    border-width: 0px;
+    background-color: red;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.submit-btn:hover{
+    background-color: #111111;
+}
+
+.section4-content {
+    width: 60%;
+
+}
+
+.icon {
+    font-size: 30px;
+    margin: 5px;
+
+}
+
+.section4-input-el {
+    padding: 10px;
+    width: 40%;
+    margin-right: 10px;
+    font-size: large;
+    color: gray;
+    font-weight: bold;
+}
+
+.section4-heading {
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.section4-description {
+    font-size: large;
+    text-wrap: wrap;
+    line-height: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+/* section 5 */
+.section-5-main-container {
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 100vw;
+}
+
+.section5-main-heading {
+    font-size: xx-large;
+    text-align: center;
+    margin: 10px;
+}
+
+.section5-tagline {
+    font-size: medium;
+    font-family: 'Open Sans' sans-serif;
+    margin-bottom: 20px;
+}
+
+.why-us-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.card1 {
+    background-color: red;
+}
+
+.card2 {
+    background-color: #cfcccc;
+}
+
+.card3 {
+    background-color: #110b0b;
+    color: #ffffff;
+
+}
+
+.why-us-description-3 {
+    color: #ffffff;
+}
+
+.why-us-card {
+    width: 25%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.why-us-card-img {
+    height: 90%;
+    width: 100%;
+
+}
+
+.why-us-card-heading {
+    font-size: larger;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+
+}
+
+.ancher-el-section5 {
+    text-decoration: underline;
+
+    text-underline-offset: 5px;
+    text-decoration-thickness: 5px;
+    text-decoration-color: red;
+}
+
+
+/* section 6 */
+.section6-main-container {
+    background-image: url('https://images01.nicepage.com/c461c07a441a5d220e8feb1a/caecdeb0f0d2508f8e29959d/billionphotos-3671911.jpg');
+
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+
+    max-width: 100vw;
+
+}
+
+
+.section6-content-container {
+    width: 50%;
+    background-color: red;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section6-heading {
+    color: #ffffff;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+.section6-description {
+    color: #ffffff;
+    text-align: center;
+    font-size: larger;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.members-heading-count {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: bold;
+    
+    animation: count-up 2s linear;
+}
+
+
+@keyframes count-up {
+    from { content: "340"; }
+    to { content: "350"; }
+  }
+
+
+
+
+.count-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mebers-text {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.srction6-bottom-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+
+/* section 7 */
+.section-7-main-container {
+    background-color: #ffff;
+    max-width: 100vw;
+    padding: 10px;
+}
+
+.vertical-bar{
+    width: 100px;
+    height: 350px;
+    background-color: red;
+}
+
+.start-now-btn{
+    height: 50px;
+    width: 150px;
+    border-width: 0px;
+    font-family: 'Roboto';
+    font-size: medium;
+    margin-top: 30px;
+    background-color: red;
+    color: #ffffff;
+   
+}
+.start-now-btn:hover{
+    background-color: #111111;
+}
+
+.section-7-description{
+
+    color: #999999;
+    font-size: medium;
+}
+
+.section-7-img{
+    width: 25%;
+}
+
+.section7-img-content-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    padding-top: 0px;
+}
+
+.section7-content-container{
+ width: 40%;
+
+}
+.section-7-description{
+    line-height: 25px;
+    margin-top: 20px;
+}
+.section-7-bottom-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.section-7-bottom-description{
+    line-height: 30px;
+font-size: larger;
+color: #111111;
+
+margin-bottom: 50px;
+
+}
+
+.justin-heading{
+    font-size: xx-large;
+
+}
+
+/* section 8 */
+.section8-main-container {
+    height: 60vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+    padding: 40px;
+
+    max-width: 100vw;
+}
+
+.section8-content-container {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #fff;
+}
+
+.section8-input-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.section8-input-el {
+    width: 100%;
+    height: 45px;
+    color: gray;
+    font-size: medium;
+}
+
+.submit-btn-section8 {
+    background-color: red;
+    color: #ffff;
+    font-size: medium;
+    height: 45px;
+    border-width: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 180px;
+
+}
+
+.submit-btn-section8:hover{
+    background-color: #111111;
+}
+
+.newsletter-headind {
+    font-size: 44px;
+    margin: 20px;
+}
+
+.follow-us {
+    height: 40%;
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    margin-top: auto;
+
+
+}
+
+
+.follow-us-heading {
+    text-align: center;
+    font-size: x-large;
+    margin: 20px;
+    color: #ffffff;
+    font-family: 'Roboto';
+}
+
+.social-meadia-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.socialmedia-icon {
+    margin: 10px;
+    height: 25px;
+    margin: 50px;
+}
+
+.footer {
+    background-color: rgb(71, 71, 71);
+    height: 20vh;
+    text-align: center;
+    padding: 20px;
+
+    border-top: 2px solid white;
+
+    max-width: 100vw;
+
+}
+
+.footer-text {
+    color: #ffffff;
+}
+.footer-ancher-el{
+   color: green;
+   text-decoration: none;
+}
+
+
+
+@media screen and (max-width:765px) {
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-description-container {
+        width: 80%;
+        padding: 40px;
+    }
+
+    /* secttion 2 */
+    .card {
+        width: 40%;
+    }
+
+
+    /* section 3 */
+
+    .gym-and-fitness-leftcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .section-3-about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-image-container {
+        width: 100%;
+    }
+
+    .section-3-about-image {
+        width: 100%;
+    }
+
+    .section-3-content-container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .section-3-description-container {
+        width: 100%;
+        padding: 0px;
+
+
+    }
+
+    .section-3-description {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .gyn-and-fit-image {
+        width: 100%;
+        margin-top: 5px;
+
+    }
+
+    .gym-img-2 {
+        width: 100%;
+        margin: 5px;
+
+
+    }
+
+    .gym-img-3 {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .gym-img-4 {
+
+        width: 40%;
+        height: 45%;
+        margin-top: 10px;
+        margin-left: 0px;
+        padding: 0px;
+        width: 100%;
+
+        margin-top: 10px;
+
+
+    }
+
+    .section-3-description-container {
+        padding: 0px;
+        order: -1;
+    }
+
+    .section-3-description-container {
+        width: 100%;
+        /* border: 2px solid green; */
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .section-3-description {
+        width: 100%;
+        /* border: 2px solid green; */
+    }
+
+
+
+    /* section 4 */
+    .section4-content {
+        width: 90%;
+    }
+
+    .section4-input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+
+    .section4-input-el {
+        width: 85%;
+        margin-right: 0px;
+    }
+
+    .submit-btn {
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    .section4-description {
+
+        font-size: 14px;
+    }
+
+    .section4-heading {
+
+        font-size: 44px;
+    }
+
+
+    /* section 5 */
+    .why-us-cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .why-us-card {
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* section 6 */
+
+    .section6-main-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        margin-top: 75vh;
+
+        background-size: cover;
+    }
+
+    .section6-content-container {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .members-heading-count {
+        font-size: x-large;
+    }
+
+    .mebers-text {
+        font-size: large;
+    }
+
+
+    /* section-7 */
+    .section7-img-content-container{
+
+        display: flex;
+        flex-direction: column;
+
+  
+    }
+
+    .section-7-description{
+        width: 100%;
+      
+    }
+
+    .section-7-img{
+        width: 100%;
+    }
+
+    .section7-content-container{
+        width: 100%;
+       }
+
+       .start-now-btn{
+        margin-bottom: 10px;
+       }
+
+
+
+
+    /* section 8 */
+
+    .section8-main-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section8-content-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: auto;
+
+
+    }
+
+    .section8-input-container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+
+    }
+
+    .submit-btn-section8 {
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .newsletter-headind {
+        text-align: center;
+    }
+
+
+
+
+}
